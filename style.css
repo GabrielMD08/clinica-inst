@@ -855,13 +855,18 @@ body {
 }
 
 .content--information {
-    /* border: 5px double red; */
+    /* border: 5px double red;  */
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
+  }
+
+  .content-image{
+    max-width: 500px;
+    height: auto;
   }
   
   .content--information-row-patient {
@@ -874,7 +879,7 @@ body {
   }
   
   .content--information-col-patient-one {
-    /* background-image: url(assets/Group\ 111.png); */
+    background-image: url(assets/Group\ 111.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     /* padding: 50px 0px; */
